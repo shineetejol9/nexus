@@ -1,7 +1,5 @@
 # 🚀 NEXUS
 
-https://github.com/user-attachments/assets/6f2a83f5-ae3c-4e4d-8f2c-1c56a7a53050
-
 <p align="center">
   <strong>Enterprise Data Intelligence & Decision Platform</strong><br>
   Transform raw data into clean, trusted, and actionable insights through an intelligent data pipeline.
