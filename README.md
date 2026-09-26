@@ -92,16 +92,6 @@ nexus/
 └── README.md
 
 🤖 AI-Assisted Development
-
-AI tools were an important part of the development process of NEXUS.
-
-They were used as development assistants for understanding requirements, exploring architecture, implementation, debugging, code review, testing, documentation, and solving development problems.
-
-<p align="center"> <img src="docs/ai-tools.svg" alt="AI Tools Used in NEXUS" width="850"/> </p>
-🛰️ Antigravity
-
-Antigravity was used for project-level development and working across multiple parts of the application.
-
 It helped with:
 
 🏗️ Understanding the overall project structure
@@ -110,42 +100,6 @@ It helped with:
 🧩 Implementing features across different modules
 🛠️ Refactoring existing code
 🐛 Debugging project-wide issues
-📂 Navigating and modifying the larger codebase
-🧠 Claude
-
-Claude was mainly used for reasoning-heavy development tasks.
-
-It helped with:
-
-🏗️ Architecture discussions
-🧩 Breaking complex features into smaller tasks
-🐛 Debugging and error analysis
-🔍 Code review
-♻️ Refactoring
-⚙️ Comparing implementation approaches
-🧪 Thinking through edge cases
-💬 ChatGPT
-
-ChatGPT was used throughout the development process for:
-
-📚 Understanding technical concepts
-💻 Code implementation
-🐛 Debugging
-🧪 Writing and improving tests
-🗄️ Database and API design
-🔐 Authentication and RBAC concepts
-🌐 Frontend and backend integration
-📝 Documentation
-🌱 Git and GitHub workflows
-✨ Google Gemini
-
-Google Gemini was also used as a development assistant for:
-
-💡 Brainstorming
-🔍 Exploring alternative solutions
-🧠 Understanding AI and data-related concepts
-🔄 Comparing possible approaches
-📝 Reviewing development ideas
 
 #🔄 Development Workflow
 💡 Idea
