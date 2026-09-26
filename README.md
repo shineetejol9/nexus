@@ -269,3 +269,8 @@ Analytics
 Intelligence
    ↓
 Better Decisions
+
+
+
+https://github.com/user-attachments/assets/709a427f-c823-4b00-805a-e33fb865937a
+
