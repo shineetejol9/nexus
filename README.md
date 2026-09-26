@@ -1,4 +1,3 @@
-# nexus
 # 🚀 NEXUS
 
 <p align="center">
