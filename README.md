@@ -121,6 +121,7 @@ It helped with:
 🔍 Review
    ↓
 ✅ Improve & Integrate
+
 ## 🔐 Authentication & Role-Based Access Control
 
 NEXUS uses **JWT-based authentication** and **Role-Based Access Control (RBAC)** to provide different levels of access to different users.
