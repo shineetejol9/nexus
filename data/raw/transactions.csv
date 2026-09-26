@@ -1,0 +1,12 @@
+employee_id,name,department,salary,joining_date
+101,Rahul,IT,50000,2024-01-15
+102,Amit,HR,45000,2024-02-20
+103,Priya,Finance,,2024-03-10
+104,Rohan,IT,abc,2024-04-12
+105,Neha,HR,-30000,2024-05-18
+106,,Finance,60000,2024-06-20
+107,Ankit,12345,55000,2024-07-22
+108,Sumit,IT,65000,wrong-date
+108,Sumit,IT,65000,2024-08-25
+EMP109,Riya,Marketing,70000,2024-09-10
+110,Karan,Sales,75000,10-10-2024

@@ -1,0 +1,14 @@
+product_id,product_name,quantity,price,stock_date
+P101,Laptop,10,50000,2026-09-01
+P102,Mouse,25,1000,2026-09-02
+P103,Keyboard,,2000,2026-09-03
+P104,Monitor,15,abc,2026-09-04
+P105,Headphones,-5,3000,2026-09-05
+P106,,20,2500,2026-09-06
+P107,Webcam,ten,3500,2026-09-07
+P108,Speaker,12,-500,2026-09-08
+P109,12345,10,4000,2026-09-09
+P110,Mouse,15,4500,wrong-date
+P110,Mouse,15,4500,2026-09-10
+101,Keyboard,20,2000,2026-09-11
+EMP112,Monitor,8,15000,2026-09-12

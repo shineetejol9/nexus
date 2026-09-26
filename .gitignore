@@ -1,0 +1,11 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.coverage
+.pytest_cache/
+.virtual_documents/
+anaconda_projects/
+.ipynb_checkpoints/
+data/processed/
+data/quarantine/

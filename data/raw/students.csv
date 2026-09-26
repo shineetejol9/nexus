@@ -1,0 +1,14 @@
+student_id,name,age,course,marks
+1,Rahul,20,Computer Science,85
+2,Amit,21,Mechanical,78
+3,Priya,,Electronics,91
+4,Rohan,twenty,Civil,72
+5,Neha,-19,Computer Science,88
+6,,22,Mechanical,95
+7,Ankit,20,12345,76
+8,Sumit,21,Electronics,abc
+9,Karan,23,Civil,105
+10,Riya,22,Computer Science,89
+10,Riya,22,Computer Science,89
+11,EMP11,21,Mechanical,82
+12,Arjun,20,Electronics,07-09-2026

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { font-family: 'Space Mono', monospace; }
+::selection { background: #ff7a2f; color: #060809; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #0d1114; }
+::-webkit-scrollbar-thumb { background: #22282c; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #2e3539; }
+
+.nx-card {
+  @apply bg-panel border border-border rounded-xl;
+}
+.nx-badge {
+  @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] tracking-[0.15em] uppercase font-bold;
+}
