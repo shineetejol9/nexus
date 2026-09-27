@@ -83,7 +83,7 @@ QUARANTINE_FOLDER = os.path.join(
 @app.post("/upload")
 def upload_csv(
     file: UploadFile = File(...),
-    current_user=Depends(require_role("Admin", "Data Engineer"))
+    current_user=Depends(require_role("Admin", "Data Engineer", "Viewer"))
 ):
 
     # Check file type

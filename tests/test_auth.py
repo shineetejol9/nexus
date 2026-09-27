@@ -62,8 +62,8 @@ def test_verify_password():
 def test_create_access_token():
     """Verify JWT token creation and decoding of payload fields."""
     user_id = 42
-    username = "test_analyst"
-    role = "Analyst"
+    username = "test_user"
+    role = "Data Engineer"
 
     token = create_access_token(user_id=user_id, username=username, role=role)
     assert token is not None
@@ -160,7 +160,7 @@ def test_get_current_user_invalid_token():
 
 def test_require_role_allowed():
     """Test require_role allows users with an authorized role."""
-    role_checker = require_role("Admin", "Analyst")
+    role_checker = require_role("Admin", "Data Engineer")
 
     user_payload = {"user_id": 1, "username": "admin_user", "role": "Admin"}
     result = role_checker(current_user=user_payload)
@@ -182,8 +182,8 @@ def test_require_role_disallowed():
 
 def test_require_role_multiple_allowed_roles():
     """Test require_role with multiple allowed roles permits matching user."""
-    role_checker = require_role("Admin", "Editor", "Analyst")
+    role_checker = require_role("Admin", "Data Engineer", "Viewer")
 
-    analyst_user = {"user_id": 3, "username": "analyst_bob", "role": "Analyst"}
-    result = role_checker(current_user=analyst_user)
-    assert result == analyst_user
+    de_user = {"user_id": 3, "username": "de_bob", "role": "Data Engineer"}
+    result = role_checker(current_user=de_user)
+    assert result == de_user

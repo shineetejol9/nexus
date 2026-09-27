@@ -104,13 +104,23 @@ def test_data_engineer_can_upload_success(client, data_engineer_headers):
     assert response.json()["message"] == "File uploaded, cleaned and stored successfully"
 
 
-def test_viewer_cannot_upload_forbidden(client, viewer_headers):
-    """Verify Viewer cannot upload CSV file and receives 403 Forbidden."""
+def test_viewer_can_upload_success(client, viewer_headers):
+    """Verify Viewer can upload CSV file successfully (200 OK) with user ownership tracking."""
     files = {"file": ("viewer_test.csv", io.BytesIO(b"id,name,age\n1,Charlie,35"), "text/csv")}
-    response = client.post("/upload", files=files, headers=viewer_headers)
 
-    assert response.status_code == 403
-    assert "permission" in response.json()["detail"].lower()
+    with patch("upload.insert_dataset", return_value=(102, 1, 1)) as mock_insert, \
+         patch("upload.create_pipeline", return_value=502) as mock_create_pipe, \
+         patch("upload.insert_quality_report"), \
+         patch("upload.update_pipeline"):
+
+        response = client.post("/upload", files=files, headers=viewer_headers)
+
+    assert response.status_code == 200
+    assert response.json()["message"] == "File uploaded, cleaned and stored successfully"
+    assert response.json()["dataset_id"] == 102
+    # Verify dataset and pipeline ownership are associated with Viewer's user_id (user_id=3)
+    mock_insert.assert_called_once_with("viewer_test.csv", [{"id": "1", "name": "Charlie", "age": "35"}], user_id=3)
+    mock_create_pipe.assert_called_once_with(102, user_id=3)
 
 
 def test_upload_authorized(client, auth_headers):

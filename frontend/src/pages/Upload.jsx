@@ -48,7 +48,7 @@ export default function Upload() {
     )
   }
 
-  if (currentRole && !['Admin', 'Data Engineer'].includes(currentRole)) {
+  if (currentRole && !['Admin', 'Data Engineer', 'Viewer'].includes(currentRole)) {
     return (
       <AppLayout title="Upload Data">
         <div className="nx-card p-6 max-w-lg">
@@ -56,7 +56,7 @@ export default function Upload() {
             <AlertTriangle className="w-5 h-5 shrink-0" />
             <div>
               <h2 className="font-bold text-paper">Access Denied</h2>
-              <p className="text-xs text-muted mt-1">Admin or Data Engineer privileges are required to upload datasets.</p>
+              <p className="text-xs text-muted mt-1">Sufficient privileges are required to upload datasets.</p>
             </div>
           </div>
         </div>

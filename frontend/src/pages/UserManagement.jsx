@@ -612,7 +612,7 @@ export default function UserManagement() {
                     <span className="font-bold text-paper block">Role Capabilities:</span>
                     {selectedRole === 'Admin' && <p>• Full administrative access, user management, and system configuration.</p>}
                     {selectedRole === 'Data Engineer' && <p>• Dataset upload, pipeline execution, cleaning rules, and analytics.</p>}
-                    {selectedRole === 'Viewer' && <p>• Read-only access to datasets, quality reports, and overview dashboards.</p>}
+                    {selectedRole === 'Viewer' && <p>• Upload and work with permitted datasets with no administrative privileges.</p>}
                   </div>
 
                   <div className="flex items-center justify-end gap-2 pt-2 border-t border-border">

@@ -12,7 +12,7 @@ const NAV = [
   { to: '/analytics', label: 'Analytics', icon: BarChart3, roles: null },
   { to: '/anomalies', label: 'Anomalies', icon: AlertTriangle, roles: null },
   { to: '/pipelines', label: 'Pipelines', icon: Workflow, roles: null },
-  { to: '/upload', label: 'Upload', icon: UploadCloud, roles: ['Admin', 'Data Engineer'] },
+  { to: '/upload', label: 'Upload', icon: UploadCloud, roles: ['Admin', 'Data Engineer', 'Viewer'] },
   { to: '/users', label: 'User Management', icon: Users, roles: ['Admin'] },
   { to: '/settings', label: 'Settings', icon: Settings, roles: null }
 ]
