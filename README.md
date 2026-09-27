@@ -208,12 +208,12 @@ Role Verification
   ↓
 Permission Check
   ↓
-┌────────────┬────────────────┬─────────────┬──────────┐
-│   Admin    │ Data Engineer  │   Analyst   │  Viewer  │
-├────────────┼────────────────┼─────────────┼──────────┤
-│ Full Access│ Data & Pipeline│  Analytics  │ Read Only│
-│ User Mgmt  │  Operations    │ & Insights  │  Access  │
-└────────────┴────────────────┴─────────────┴──────────┘
+┌─────────────┬────────────────┬──────────┐
+│    Admin    │ Data Engineer  │  Viewer  │
+├─────────────┼────────────────┼──────────┤
+│ Full Access │ Data & Pipeline│ Read Only│
+│ User Mgmt   │  Operations    │  Access  │
+└─────────────┴────────────────┴──────────┘
 ```
 
 ---
