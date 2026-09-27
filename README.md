@@ -300,7 +300,7 @@ Intelligence
    ↓
 Better Decisions
 ```
-
+deployed-link: https://nexus-frontend-b92c.onrender.com
 
 https://github.com/user-attachments/assets/f7f5a449-d876-4465-bcae-0803ce9854f9
 
