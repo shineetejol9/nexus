@@ -1,4 +1,4 @@
-# 🚀 NEXUS
+<h1 align="center">🚀 NEXUS</h1>
 
 <p align="center">
   <strong>Enterprise Data Intelligence & Decision Platform</strong><br>
@@ -54,7 +54,13 @@ The platform processes data through multiple stages and presents the resulting i
 🌐 REST APIs
       ↓
 📊 Enterprise Dashboard
-#📁 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 nexus/
 │
 ├── backend/
@@ -90,18 +96,26 @@ nexus/
 │
 ├── requirements.txt
 └── README.md
+```
 
-🤖 AI-Assisted Development
+---
+
+## 🤖 AI-Assisted Development
+
 It helped with:
 
-🏗️ Understanding the overall project structure
-🔧 Multi-file implementation
-🔄 Connecting frontend and backend functionality
-🧩 Implementing features across different modules
-🛠️ Refactoring existing code
-🐛 Debugging project-wide issues
+- 🏗️ Understanding the overall project structure
+- 🔧 Multi-file implementation
+- 🔄 Connecting frontend and backend functionality
+- 🧩 Implementing features across different modules
+- 🛠️ Refactoring existing code
+- 🐛 Debugging project-wide issues
 
-#🔄 Development Workflow
+---
+
+## 🔄 Development Workflow
+
+```text
 💡 Idea
    ↓
 🤖 Ask AI
@@ -121,6 +135,9 @@ It helped with:
 🔍 Review
    ↓
 ✅ Improve & Integrate
+```
+
+---
 
 ## 🔐 Authentication & Role-Based Access Control
 
@@ -130,13 +147,13 @@ NEXUS uses **JWT-based authentication** and **Role-Based Access Control (RBAC)**
 
 The **Admin** has system-level access and can:
 
-* 👥 Manage users
-* 🔄 Change user roles
-* 🔒 Activate or deactivate user accounts
-* 📊 View system-level information
-* ⚙️ Manage platform operations
-* 📂 Access datasets and pipelines
-* 📝 Monitor user activity
+- 👥 Manage users
+- 🔄 Change user roles
+- 🔒 Activate or deactivate user accounts
+- 📊 View system-level information
+- ⚙️ Manage platform operations
+- 📂 Access datasets and pipelines
+- 📝 Monitor user activity
 
 ### 🛠️ Data Engineer
 
@@ -144,13 +161,13 @@ The **Data Engineer** is responsible for data and pipeline operations.
 
 They can:
 
-* 📂 Upload datasets
-* 🔍 Profile and validate data
-* 🧹 Clean and transform datasets
-* ⚙️ Execute data pipelines
-* 📊 Monitor data quality
-* 🚨 Inspect anomalies
-* 📈 Work with processed datasets
+- 📂 Upload datasets
+- 🔍 Profile and validate data
+- 🧹 Clean and transform datasets
+- ⚙️ Execute data pipelines
+- 📊 Monitor data quality
+- 🚨 Inspect anomalies
+- 📈 Work with processed datasets
 
 ### 📊 Analyst
 
@@ -158,12 +175,12 @@ The **Analyst** works with trusted data and business insights.
 
 They can:
 
-* 📊 View analytics
-* 📈 Explore KPIs
-* 🔍 Analyze datasets
-* 🚨 View detected anomalies
-* 📋 View data quality reports
-* 📈 Explore business insights
+- 📊 View analytics
+- 📈 Explore KPIs
+- 🔍 Analyze datasets
+- 🚨 View detected anomalies
+- 📋 View data quality reports
+- 📈 Explore business insights
 
 ### 👁️ Viewer
 
@@ -171,10 +188,10 @@ The **Viewer** has restricted read-only access.
 
 They can:
 
-* 📊 View permitted datasets
-* 🔍 Explore available information
-* 📈 View analytics and insights
-* 📋 View data quality information
+- 📊 View permitted datasets
+- 🔍 Explore available information
+- 📈 View analytics and insights
+- 📋 View data quality information
 
 Viewers cannot perform privileged operations such as uploading datasets or managing users.
 
@@ -191,41 +208,57 @@ Role Verification
   ↓
 Permission Check
   ↓
-┌────────────┬───────────────┬─────────────┬──────────┐
-│   Admin    │ Data Engineer │   Analyst   │  Viewer  │
-├────────────┼───────────────┼─────────────┼──────────┤
-│ Full Access│ Data & Pipeline│ Analytics  │ Read Only│
-│ User Mgmt  │ Operations     │ & Insights │ Access   │
-└────────────┴───────────────┴─────────────┴──────────┘
+┌────────────┬────────────────┬─────────────┬──────────┐
+│   Admin    │ Data Engineer  │   Analyst   │  Viewer  │
+├────────────┼────────────────┼─────────────┼──────────┤
+│ Full Access│ Data & Pipeline│  Analytics  │ Read Only│
+│ User Mgmt  │  Operations    │ & Insights  │  Access  │
+└────────────┴────────────────┴─────────────┴──────────┘
+```
 
-#🚀 Getting Started
+---
+
+## 🚀 Getting Started
 
 Clone the repository:
 
+```bash
 git clone https://github.com/shineetejol9/nexus.git
+```
 
 Move into the project:
 
+```bash
 cd nexus
+```
 
 Create a virtual environment:
 
+```bash
 python -m venv venv
+```
 
 Activate it on Windows:
 
+```bash
 venv\Scripts\Activate.ps1
+```
 
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 Configure the required environment variables and PostgreSQL database, then start the backend and frontend development servers.
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 
 Want to contribute to NEXUS?
 
+```text
 🍴 Fork
    ↓
 📥 Clone
@@ -243,21 +276,32 @@ Want to contribute to NEXUS?
 🔍 Review
    ↓
 ✅ Merge
+```
 
-#Create a feature branch:
+Create a feature branch:
 
+```bash
 git checkout -b feature/your-feature
+```
 
 Commit your changes:
 
+```bash
 git add .
 git commit -m "Add your feature"
+```
 
 Push your branch:
 
+```bash
 git push origin feature/your-feature
+```
 
-#vison
+---
+
+## 🔮 Vision
+
+```text
 Raw Data
    ↓
 Clean Data
@@ -269,7 +313,4 @@ Analytics
 Intelligence
    ↓
 Better Decisions
-
-
-
-
+```
