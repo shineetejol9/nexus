@@ -146,7 +146,6 @@ NEXUS uses **JWT-based authentication** and **Role-Based Access Control (RBAC)**
 ### 👑 Admin
 
 The **Admin** has full system-level access and can:
-
 - 📂 Upload datasets
 - 🔍 View and check over all data in the system
 - ⬇️ Download clean/processed data
@@ -178,6 +177,8 @@ They can:
 - 🔍 Explore available information
 - 📈 View analytics and insights
 - 📋 View data quality information
+-  📂 Upload datasets
+- ⬇️ Download clean/processed data
 
 Viewers cannot perform privileged operations such as uploading datasets or managing users.
 
